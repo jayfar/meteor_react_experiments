@@ -13,6 +13,7 @@ Routes = React.createClass({
       <Router history={browserHistory}>
         <Route path="/" component={App}>
           <IndexRoute component={Index}/>
+          <Route path="about/:id" component={About} />
         </Route>
       </Router>
     );

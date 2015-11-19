@@ -24,6 +24,7 @@ Index = React.createClass({
           <p>This is the index route.</p>
           <input type="button" onClick={this.handleThatEvent} value="Click Me!" />
           <p>You''ve pressed the button {this.data.countTest} times.</p>
+          <a href={"/about/" + this.data.countTest}>About</a>
         </div>
       </div>
     );
