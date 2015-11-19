@@ -3,6 +3,7 @@ App = React.createClass({
   render() {
     return (
       <div>
+        <AppNavBar/>
         <div className="container">
           {/* Views will be rendered here */}
           {this.props.children}
