@@ -21,6 +21,7 @@ insecure                # Allow all DB writes from clients (for prototyping)
 
 react
 reactrouter:react-router
+thereactivestack:blazetoreact
 
 reactive-var
 

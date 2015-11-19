@@ -17,6 +17,7 @@ AppNavBar = React.createClass({
         <ul className="nav navbar-nav">
           <NavLink to="/" index>Home</NavLink>
           <NavLink to={"/about/" + this.data.countTest}>About</NavLink>
+          <NavLink to="/br">Blaze/React</NavLink>
         </ul>
         <ul className="nav navbar-nav navbar-right">
           <NavLink to="/signin">Sign In</NavLink>
